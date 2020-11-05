@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Aller';
+    src: url('aller.light-webfont.woff2') format('woff2'),
+         url('aller.light-webfont.woff') format('woff'),
+         url('aller.light-webfont.ttf') format('truetype'),
+         url('aller.light-webfont.svg#aller_lightregular') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('aller.bold-webfont.woff2') format('woff2'),
+         url('aller.bold-webfont.woff') format('woff'),
+         url('aller.bold-webfont.ttf') format('truetype'),
+         url('aller.bold-webfont.svg#allerbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('aller.bold-italic-webfont.woff2') format('woff2'),
+         url('aller.bold-italic-webfont.woff') format('woff'),
+         url('aller.bold-italic-webfont.ttf') format('truetype'),
+         url('aller.bold-italic-webfont.svg#allerbold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('aller.italic-webfont.woff2') format('woff2'),
+         url('aller.italic-webfont.woff') format('woff'),
+         url('aller.italic-webfont.ttf') format('truetype'),
+         url('aller.italic-webfont.svg#alleritalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('aller.regular-webfont.woff2') format('woff2'),
+         url('aller.regular-webfont.woff') format('woff'),
+         url('aller.regular-webfont.ttf') format('truetype'),
+         url('aller.regular-webfont.svg#allerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
