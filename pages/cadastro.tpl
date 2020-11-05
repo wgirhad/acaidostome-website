@@ -493,13 +493,18 @@
 
                         <h3>Considerações Finais</h3>
                         <p>A perda ou extravio do cartão acarretará um custo para a emissão da 2°via.</p>
-                        <p>O resgate de Prêmios e os descontos não geram pontos. Os Prêmios deverão ser retirados ou consumidos na loja do AÇAÍ DOS TOMÉ – Rua Rui Barbosa, 570 | Centro | Itatiba/SP – entre as terças e quintas-feiras, das 12h às 21h, mediante a apresentação de um documento de identidade com foto. Caso o premiado tenha menos de 14 (quatorze) anos, o Prêmio só será entregue com a presença de uma pessoa legalmente responsável pelo menor, também devidamente identificada.</p>
-                        <p>OS PRÊMIOS NÃO SERÃO ESNTREGUES POR PORTADORES, e nem a terceiros.</p>
-                        <p>Caso haja a tentativa de transferência de benefícios para outra pessoa fora do plano o mesmo terásua pontuação zerada e também perderá os benefícios já conquistados.</p>
-                        <p>TAXA DE ENTREGA FREE: A Taxa de Entrega Free, válida para os TUCANOS FIÉIS que alcançam 2.000 (dois mil pontos) limita-se ao Perímetro Urbano com taxas máximas de R1 2,50 (dois reais e cinquenta centavos). As entregas que tenham um valor superior ao indicado continuarão recebendo o benefício com o desconto Free de R1 2,50 e a diferença do valor da entrega será cobrada normalmente, mesmo que estejam no perímetro urbano – Exemplo: Entregas em Condomínios.</p>
-                        <p>Os descontos não geram pontos para a tabela de fidelidade.</p>
+                        <p>O resgate de prêmios e os descontos não geram pontos.</p>
+                        <p>Os pagamentos realizados com cartão refeição não geram pontos.</p>
+                        <p>Os prêmios deverão ser retirados ou consumidos na loja do AÇAÍ DOS TOMÉ – Rua Rui Barbosa, 570 | Centro | Itatiba/SP – entre as terças e quintas-feiras, exceto feriados, das 12h às 21h, mediante a apresentação de um documento de identidade com foto e CPF. Caso o premiado tenha menos de 14 (quatorze) anos, o prêmio só será entregue com a presença de uma pessoa legalmente responsável pelo menor, também devidamente identificada.</p>
+                        <p>O resgate de prêmios não pode ser realizado por delivery.</p>
+                        <p>O resgate de prêmios deve ser feito com o funcionário do caixa, e o mesmo deve ser avisado no ato do pedido sobre o resgate de prêmios. O resgate não pode ser efetuado após o consumo do produto.  </p>
+                        <p>Os prêmios não serão entregues a portadores, e nem a terceiros.</p>
+                        <p>O código é individual e intransferível, não podendo ser utilizado por terceiros e/ou portadores para pontuar, resgatar prêmios ou usufruir das vantagens alcançadas.</p>
+                        <p>Caso haja a tentativa de transferência de benefícios para outra pessoa fora do plano o mesmo terá sua pontuação zerada e também perderá os benefícios já conquistados.</p>
+                        <p>TAXA DE ENTREGA FREE: A Taxa de Entrega Free, válida para os Tucanos Fiéis que alcançam 2.000 (dois mil pontos) limita-se ao perímetro urbano com taxas máximas de R$ 2,50 (dois reais e cinquenta centavos). As entregas que tenham um valor superior ao indicado continuarão recebendo o benefício com o desconto free de R$ 2,50 e a diferença do valor da entrega será cobrada normalmente, mesmo que estejam no perímetro urbano – Exemplo: entregas em condomínios.</p>
+                        <p>Caso o cliente também possua o desconto de 5% ou 10%, e esteja solicitando uma entrega em endereço diferente do cadastrado, o desconto será aplicado no valor da compra, sendo a taxa cobrada integralmente.</p>
                         <p>O AÇAÍ DOS TOMÉ reserva-se o direito de extinguir o PROGRAMA DE VANTAGENS EM COMPRAS TUCANO FIEL sem a necessidade de aviso prévio.</p>
-                        <p>Os termos e regras poderão ser alteradas, sem aviso prévio, por parte do AÇAÍ DOS TOMÉ.</p>
+                        <p>Os termos e regras poderão ser alterados, sem aviso prévio, por parte do AÇAÍ DOS TOMÉ.</p>
                     </div>
                 </div>
                 <div class="fw-tab" style="display: none" data-fw-label="premios">
