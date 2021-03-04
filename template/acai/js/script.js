@@ -1,7 +1,7 @@
 (function(){
 
 $(".acai-navbar .row-button button").click(_switchMenu);
-$(".sectcardapio").click(abreCardapio);
+$(".sectcardapio").click(abrePedidos);
 $(".sectpedidos").click(abrePedidos);
 
 function _switchMenu() {
