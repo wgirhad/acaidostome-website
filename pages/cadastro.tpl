@@ -9,7 +9,7 @@
         <div class="card-label">
             <span>GOLD</span>
             <div class="card-label-box">
-                <span>2.000</span>
+                <span>2.500</span>
                 <span>pts</span>
             </div>
         </div>
@@ -19,7 +19,7 @@
         <div class="card-label">
             <span>PLATINUM</span>
             <div class="card-label-box">
-                <span>3.500</span>
+                <span>4.500</span>
                 <span>pts</span>
             </div>
         </div>
@@ -29,7 +29,7 @@
         <div class="card-label">
             <span>DIAMOND</span>
             <div class="card-label-box">
-                <span>5.500</span>
+                <span>6.000</span>
                 <span>pts</span>
             </div>
         </div>
@@ -439,13 +439,13 @@
                         <h3>Premiação</h3>
                         <p>Através de uma Tabela de PRÊMIOS e uma Tabela de VANTAGÊNS, o TUCANO FIEL vai acumulando Pontos. Esses pontos são gerados pelos valores das compras, conforme explicado no item MECANISMO acima.</p>
                         <p>Na Tabela PRÊMIOS os pontos são acumulados através das compras realizadas, gerando assim um Total de Pontos Acumulados que poderão ser trocados pelos PRÊMIOS relacionados em nosso site.</p>
-                        <p>Os PRÊMIOS estão distribuídos em 5 (cinco) categorias de Pontos Acumulados: 150 PONTOS, 175 PONTOS, 220 PONTOS, 350 PONTOS e 400 PONTOS. (Exemplo: Para Atingir 150 pontos | 1 pedido de R$ 45,80 + 1 pedido de R$ 40,25 + 1 pedido de 40,50 + 25,30 = 150 PONTOS). Observe no exemplo que para a soma dos pontos foram utilizados somente os valores à esquerda da vírgula.</p>
-                        <p>Ao resgatar os Pontos para trocar por PRÊMIOS, o número de Pontos será abatido no Saldo Total da Tabela PRÊMIOS de cada Cliente, como acontece numa conta corrente. (Exemplo: Cliente A: Saldo Total PRÊMIO - 185 Pontos | Resgate de um PRÊMIO de 150 Pontos | Sado Total PRÊMIO após o resgate - 35 Pontos). Os Pontos continuarão sendo acumulados, conforme o Cliente continuar comprando. O valor do PRÊMIO RESGATADO não gerará pontos.</p>
+                        <p>Os PRÊMIOS estão distribuídos em categorias de pontos que variam de 180 à 500 PONTOS. (Exemplo: Para atingir 180 pontos | 1 pedido de R$45,80 + 1 pedido de R$40,25 + 1 pedido de 40,50 + 1 pedido de 55,30 = 180 PONTOS).  Observe no exemplo que para a soma dos pontos foram utilizados somente os valores à esquerda da vírgula.</p>
+                        <p>Ao resgatar os Pontos para trocar por PRÊMIOS, o número de Pontos será abatido no Saldo Total da Tabela PRÊMIOS de cada Cliente, como acontece numa conta corrente. (Exemplo: Cliente A: Saldo Total PRÊMIO - 185 Pontos | Resgate de um PRÊMIO de 180 Pontos | Sado Total PRÊMIO após o resgate - 05 Pontos). Os Pontos continuarão sendo acumulados, conforme o Cliente continuar comprando. O valor do PRÊMIO RESGATADO não gerará pontos.</p>
 
                         <p class="pointer fw-goto-label" data-fw-goto="premios">A relação dos Prêmios está no site www.acaidostome.com.br, menu TUCANO FIEL.</p>
 
                         <h3>Vantagens</h3>
-                        <p>Na Tabela VANTAGENS os pontos também são acumulados através das mesmas compras realizadas, com a diferença de que não há o abatimento de Pontos, mesmo que haja o resgate de PRÊMIOS. (Utilizando o mesmo exemplo: Cliente A: Saldo Total PONTOS Prêmios - 185 Pontos | Resgate de um PRÊMIO de 150 Pontos | Saldo PONTOS PRÊMIOS após o resgate - 35 Pontos | Saldo Total PONTOS VANTAGENS após o resgate de Prêmio – continua os mesmos 185 Pontos).</p>
+                        <p>Na Tabela VANTAGENS os pontos também são acumulados através das mesmas compras realizadas, com a diferença de que não há o abatimento de Pontos, mesmo que haja o resgate de PRÊMIOS. (Utilizando o mesmo exemplo: Cliente A: Saldo Total PONTOS Prêmios - 185 Pontos | Resgate de um PRÊMIO de 180 Pontos | Saldo PONTOS PRÊMIOS após o resgate - 05 Pontos  | Saldo Total PONTOS VANTAGENS após o resgate de Prêmio – continua os mesmos 185 Pontos).</p>
                         <p>As VATAGENS do TUCANO FIEL seguem o mesmo raciocínio dos PRÊMIOS, porém, ao invés de resgate de Prêmios ao atingir determinada pontuação, o Cliente recebe, gratuitamente e sem nenhum tipo de taxa, um CARD VIP personalizado que lhe confere VANTAGENS vitalícias (ou até a extinção do Programa de Vantagens) e intransferíveis, conforme descritos na Tabela abaixo:</p>
 
                         <table class="table">
@@ -458,19 +458,19 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td style="white-space:nowrap">2.000 Pontos</td>
+                                    <td style="white-space:nowrap">2.500 Pontos</td>
                                     <td style="white-space:nowrap">GOLD CARD VIP Tax Free</td>
-                                    <td>Não serão mais cobradas Taxas de Entrega para o endereço cadastrado, dentro do perímetro urbano.</td>
+                                    <td>Não serão mais cobradas Taxas de Entrega para o endereço cadastrado. (Até o limite descrito no campo abaixo TAXA DE ENTREGA FREE).</td>
                                 </tr>
                                 <tr>
-                                    <td style="white-space:nowrap">3.500 Pontos</td>
+                                    <td style="white-space:nowrap">4.500 Pontos</td>
                                     <td style="white-space:nowrap">PLATINUM CARD VIP</td>
-                                    <td>5% de Desconto em qualquer valor de compra e não serão mais cobradas Taxas de Entrega para o endereço cadastrado, dentro do perímetro urbano.</td>
+                                    <td>5% de Desconto em qualquer valor de compra. (No caso de o pedido ser delivery e o valor a ser descontado seja menor que o valor da taxa de entrega, o maior desconto irá prevalecer).</td>
                                 </tr>
                                 <tr>
-                                    <td style="white-space:nowrap">5.500 Pontos</td>
+                                    <td style="white-space:nowrap">6.000 Pontos</td>
                                     <td style="white-space:nowrap">DIAMOND CARD VIP</td>
-                                    <td>10% de Desconto em qualquer valor de compra e não serão mais cobradas Taxas de Entrega para o endereço cadastrado, dentro do perímetro urbano.</td>
+                                    <td>10% de Desconto em qualquer valor de compra. (No caso de o pedido ser delivery e o valor a ser descontado seja menor que o valor da taxa de entrega, o maior desconto irá prevalecer).</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -501,8 +501,7 @@
                         <p>Os prêmios não serão entregues a portadores, e nem a terceiros.</p>
                         <p>O código é individual e intransferível, não podendo ser utilizado por terceiros e/ou portadores para pontuar, resgatar prêmios ou usufruir das vantagens alcançadas.</p>
                         <p>Caso haja a tentativa de transferência de benefícios para outra pessoa fora do plano o mesmo terá sua pontuação zerada e também perderá os benefícios já conquistados.</p>
-                        <p>TAXA DE ENTREGA FREE: A Taxa de Entrega Free, válida para os Tucanos Fiéis que alcançam 2.000 (dois mil pontos) limita-se ao perímetro urbano com taxas máximas de R$ 2,50 (dois reais e cinquenta centavos). As entregas que tenham um valor superior ao indicado continuarão recebendo o benefício com o desconto free de R$ 2,50 e a diferença do valor da entrega será cobrada normalmente, mesmo que estejam no perímetro urbano – Exemplo: entregas em condomínios.</p>
-                        <p>Caso o cliente também possua o desconto de 5% ou 10%, e esteja solicitando uma entrega em endereço diferente do cadastrado, o desconto será aplicado no valor da compra, sendo a taxa cobrada integralmente.</p>
+                        <p>TAXA DE ENTREGA FREE: A Taxa de Entrega Free, válida para os Tucanos Fiéis que alcançam 2.500 (dois mil pontos) limita-se ao perímetro urbano com taxas máximas de R$ 2,50 (dois reais e cinquenta centavos). As entregas que tenham um valor superior ao indicado continuarão recebendo o benefício com o desconto free de R$ 2,50 e a diferença do valor da entrega será cobrada normalmente, mesmo que estejam no perímetro urbano – Exemplo: entregas em condomínios.</p>
                         <p>O AÇAÍ DOS TOMÉ reserva-se o direito de extinguir o PROGRAMA DE VANTAGENS EM COMPRAS TUCANO FIEL sem a necessidade de aviso prévio.</p>
                         <p>Os termos e regras poderão ser alterados, sem aviso prévio, por parte do AÇAÍ DOS TOMÉ.</p>
                     </div>
@@ -514,14 +513,15 @@
                         </button>
                         Prêmios
                     </h1>
-                    <img src="/img/150fondue.png" alt="150_fondue" class="img-responsive"><br>
-                    <img src="/img/150tapioca.png" alt="150_tapioca" class="img-responsive"><br>
-                    <img src="/img/175acai.png" alt="175_acai" class="img-responsive"><br>
-                    <img src="/img/220cupuacu.png" alt="220_cupuacu" class="img-responsive"><br>
-                    <img src="/img/220lanche.png" alt="220_lanche" class="img-responsive"><br>
-                    <img src="/img/220pitaia.png" alt="220_pitaia" class="img-responsive"><br>
-                    <img src="/img/350trilegal.png" alt="350_trilegal" class="img-responsive"><br>
-                    <img src="/img/400gran_supremum.png" alt="400_gran_supremum" class="img-responsive">
+
+                    <img src="/img/180fondue.jpg" alt="180_fondue" class="img-responsive" /><br />
+                    <img src="/img/180tapioca.jpg" alt="180_tapioca" class="img-responsive" /><br />
+                    <img src="/img/200acai.jpg" alt="200_acai" class="img-responsive" /><br />
+                    <img src="/img/250cupuacu.jpg" alt="250_cupuacu" class="img-responsive" /><br />
+                    <img src="/img/250lanches.jpg" alt="250_lanches" class="img-responsive" /><br />
+                    <img src="/img/250pitaia.jpg" alt="250_pitaia" class="img-responsive" /><br />
+                    <img src="/img/400tri-legal.jpg" alt="400_trilegal" class="img-responsive" /><br />
+                    <img src="/img/500gran.jpg" alt="500_gran" class="img-responsive" /><br />
                 </div>
             </div>
         </div>
@@ -534,18 +534,6 @@
 $(window).resize(recalcula);
 $(window).on("load", recalcula);
 */
-
-$(".goldcard").click(function() {
-    $("<a href=\"/img/popup_gold_1.png\"></a>").fancybox().click();
-});
-
-$(".platcard").click(function() {
-    $("<a href=\"/img/popup_platinum_1.png\"></a>").fancybox().click();
-});
-
-$(".diamcard").click(function() {
-    $("<a href=\"/img/popup_diamond_1.png\"></a>").fancybox().click();
-});
 
 $(".form-cadastro").on("submit", function(){
     var that = this;
