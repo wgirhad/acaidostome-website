@@ -1,4 +1,4 @@
-<div class="sect-site ht100 jumbotron">
+<div class="sect-site ht100 jumbotron" style="overflow-y: auto; padding-bottom: 152px">
     <div class="wtarea container">
         <h2>TERMOS E CONDIÇÕES DO VOUCHER AÇAÍ DOS TOMÉ</h2>
 

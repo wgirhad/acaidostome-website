@@ -4,6 +4,7 @@ function page_output($page, $template) {
     $base_path = "/template/$template";
     $temp_file = dirname(dirname(__FILE__)) . $base_path . '/template.tpl';
     $page_file = dirname(dirname(__FILE__)) . "/pages/$page.tpl";
+    $overflow = defined('NO_OVERFLOW') ? ' class="no-overflow"' : '';
     $hideStart = '';
     $hideEnd = '';
 
@@ -21,6 +22,7 @@ function page_output($page, $template) {
     $page = str_replace('{{base_path}}', $base_path, $page);
     $page = str_replace('{{hide_menu_start}}', $hideStart, $page);
     $page = str_replace('{{hide_menu_end}}', $hideEnd, $page);
+    $page = str_replace('{{overflow}}', $overflow, $page);
 
 
     echo $page;

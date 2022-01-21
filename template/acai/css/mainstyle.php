@@ -5,6 +5,10 @@ html, body {
     width: 100%;
 }
 
+.no-overflow {
+    overflow: hidden;
+}
+
 body {
     overflow-x: hidden;
     background-color: #fff;

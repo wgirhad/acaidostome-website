@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html{{overflow}}>
 <head>
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
     <title>Açaí dos Tomé</title>
@@ -26,7 +26,7 @@
     <script src='/lib/parallaxjs/parallax.min.js' defer></script>
     <script src='{{base_path}}/js/script.js?v=180306' defer></script>
 </head>
-<body>
+<body{{overflow}}>
     {{hide_menu_start}}
     <div class="acai-navbar">
         <!--<div class="top-navbar"></div>-->
