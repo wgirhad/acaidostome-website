@@ -16,6 +16,7 @@
     <link rel='stylesheet' media="(max-width: 991px) and (orientation:portrait)" href='{{base_path}}/css/mobile_port.php' />
     <link rel='stylesheet' media="(min-width: 992px)" href='{{base_path}}/css/desktop.php' />
     <link rel="stylesheet" href="/lib/fancybox/jquery.fancybox-1.3.4.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.2.0/css/flag-icons.min.css" />
 
 
     <script src='/lib/jquery/jquery.min.js'></script>

@@ -217,6 +217,11 @@ h1 {
     display: flex;
 }
 
+.country-picker>.dropdown-menu {
+    max-height: 240px;
+    overflow-y: scroll;
+}
+
 @media (max-width: 991px) {
     body {
         padding-top: 128px;

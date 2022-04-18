@@ -32,7 +32,7 @@ function check_cache($temp_file, $page_file) {
     $dates = array(
         filemtime($temp_file),
         filemtime($page_file),
-        strtotime('2017-06-24T10:30:00-03:00')
+        strtotime('2022-04-17T08:17:00-03:00')
     );
 
     $max = max($dates);
@@ -41,7 +41,12 @@ function check_cache($temp_file, $page_file) {
     if (isset($headers["If-Modified-Since"])) {
         $req = strtotime($headers["If-Modified-Since"]);
         if ($max == $req) {
-            header("HTTP/1.0 304 Not Modified");
+            if (PHP_VERSION_ID < 50400) {
+                header("HTTP/1.0 304 Not Modified");
+            } else {
+                http_response_code(304);
+            }
+
             die();
         }
     }

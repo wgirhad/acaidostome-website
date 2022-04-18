@@ -51,4 +51,6 @@ function _validate(&$input) {
     $input["ATIVO"] = "S";
     $input["PONTOS"] = 0;
     $input["SALDO"] = 0;
+    $input["WHATSAPP"] = preg_replace('/\D/', '', $input["ZIP"] . $input["ZOP"]);
+    unset($input["ZIP"], $input["ZOP"]);
 }

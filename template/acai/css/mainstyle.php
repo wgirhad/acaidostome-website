@@ -249,6 +249,11 @@ h1 {
     display: flex;
 }
 
+.country-picker>.dropdown-menu {
+    max-height: 240px;
+    overflow-y: scroll;
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
     .container-sm {
         width: 750px;

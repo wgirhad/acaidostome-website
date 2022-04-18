@@ -95,16 +95,6 @@
                                 </button>
                             </div>
                         </div>
-                        <!--
-                        <div class="form-group">
-                            <label class="col-xs-5 control-label lead">Cadastro Familiar</label>
-                            <div class="col-xs-7 col-md-3">
-                                <button class="btn btnor form-control fw-goto-label" data-fw-goto='cadfam'>
-                                    Clique aqui
-                                </button>
-                            </div>
-                        </div>
-                        -->
                         <div class="form-group">
                             <label class="col-xs-5 control-label lead">Cadastro Corporativo</label>
                             <div class="col-xs-7 col-md-3">
@@ -185,10 +175,8 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-xs-5 control-label lead">Email</label>
-                            <div class="col-xs-7">
-                                <input type="email" name="EMAIL" class="form-control" required>
-                            </div>
+                            <label class="col-xs-5 control-label lead">WhatsApp</label>
+                            <div class="col-xs-7 zapzap-placeholder"></div>
                         </div>
                         <div class="form-group">
                             <label class="col-xs-5 control-label lead">Endereço / Nº</label>
@@ -198,102 +186,6 @@
                             <div class="col-xs-2">
                                 <input type="text" name="NUM" class="form-control" required>
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-xs-7 col-xs-offset-5">
-                                <button type="button" class="btn btnor fw-goto-label" data-fw-goto="tipocad">
-                                    <i class="fa fa-chevron-left"></i>
-                                </button>
-                                <button type="submit" class="btn btnor">
-                                    Gerar código compra
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-                <form class="form-cadastro fw-tab" style="display: none" data-fw-label="cadfam">
-                    <input type="hidden" name="TIPO" value="F">
-                    <div class="form-horizontal">
-                        <label class="col-xs-7 col-xs-offset-5 lead">Cadastro Familiar</label>
-                        <div class="form-group">
-                            <label class="col-xs-5 control-label lead">Nome Tucano Chefe</label>
-                            <div class="col-xs-7">
-                                <input type="text" name="NOME" class="form-control" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-xs-5 control-label lead">CPF</label>
-                            <div class="col-xs-7">
-                                <input type="text" name="DOC" class="form-control" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-xs-5 control-label lead">Email</label>
-                            <div class="col-xs-7">
-                                <input type="email" name="EMAIL" class="form-control" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-xs-5 control-label lead">Endereço / Nº</label>
-                            <div class="col-xs-5">
-                                <input type="text" name="LOG" class="form-control" required>
-                            </div>
-                            <div class="col-xs-2">
-                                <input type="text" name="NUM" class="form-control" required>
-                            </div>
-                        </div>
-                        <div id="areaDeps" style="display: none">
-                            <div class="form-group">
-                                <label class="col-xs-5 control-label lead">Dependente 1</label>
-                                <div class="col-xs-4">
-                                    <input type="text" name="NOME_1" placeholder="Nome" class="form-control">
-                                </div>
-                                <div class="col-xs-3">
-                                    <input type="text" name="DOC_1" placeholder="CPF" class="form-control">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-xs-5 control-label lead">Dependente 2</label>
-                                <div class="col-xs-4">
-                                    <input type="text" name="NOME_2" placeholder="Nome" class="form-control">
-                                </div>
-                                <div class="col-xs-3">
-                                    <input type="text" name="DOC_2" placeholder="CPF" class="form-control">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-xs-5 control-label lead">Dependente 3</label>
-                                <div class="col-xs-4">
-                                    <input type="text" name="NOME_3" placeholder="Nome" class="form-control">
-                                </div>
-                                <div class="col-xs-3">
-                                    <input type="text" name="DOC_3" placeholder="CPF" class="form-control">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-xs-5 control-label lead">Dependente 4</label>
-                                <div class="col-xs-4">
-                                    <input type="text" name="NOME_4" placeholder="Nome" class="form-control">
-                                </div>
-                                <div class="col-xs-3">
-                                    <input type="text" name="DOC_4" placeholder="CPF" class="form-control">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-xs-5 control-label lead">Dependente 5</label>
-                                <div class="col-xs-4">
-                                    <input type="text" name="NOME_5" placeholder="Nome" class="form-control">
-                                </div>
-                                <div class="col-xs-3">
-                                    <input type="text" name="DOC_5" placeholder="CPF" class="form-control">
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <h3 class="wt text-right">
-                                Dependentes
-                                <i class="fa fa-plus pointer" id="toggleDeps"></i>
-                            </h3>
                         </div>
                         <div class="form-group">
                             <div class="col-xs-7 col-xs-offset-5">
@@ -324,10 +216,8 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-xs-5 control-label lead">Email</label>
-                            <div class="col-xs-7">
-                                <input type="email" name="EMAIL" class="form-control" required>
-                            </div>
+                            <label class="col-xs-5 control-label lead">WhatsApp</label>
+                            <div class="col-xs-7 zapzap-placeholder"></div>
                         </div>
                         <div class="form-group">
                             <label class="col-xs-5 control-label lead">Endereço / Nº</label>
@@ -527,9 +417,142 @@
         </div>
     </div>
 </div>
+<script type="text/template" id="zapzap-template">
+    <div class="input-group">
+        <div class="input-group-btn country-picker">
+            <input type="hidden" name="ZIP" class="country-picker-value" value="55" />
+            <button type="button" class="btn btn-default dropdown-toggle country-picker-display" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="fi fi-br"></span>
+                +55
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="country-picker-option" data-value="1" data-flag="us" href="javascript:void(0)"><span class="fi fi-us"></span> +1</a></li>
+                <li><a class="country-picker-option" data-value="7" data-flag="ru" href="javascript:void(0)"><span class="fi fi-ru"></span> +7</a></li>
+                <li><a class="country-picker-option" data-value="20" data-flag="eg" href="javascript:void(0)"><span class="fi fi-eg"></span> +20</a></li>
+                <li><a class="country-picker-option" data-value="27" data-flag="za" href="javascript:void(0)"><span class="fi fi-za"></span> +27</a></li>
+                <li><a class="country-picker-option" data-value="30" data-flag="gr" href="javascript:void(0)"><span class="fi fi-gr"></span> +30</a></li>
+                <li><a class="country-picker-option" data-value="31" data-flag="nl" href="javascript:void(0)"><span class="fi fi-nl"></span> +31</a></li>
+                <li><a class="country-picker-option" data-value="32" data-flag="be" href="javascript:void(0)"><span class="fi fi-be"></span> +32</a></li>
+                <li><a class="country-picker-option" data-value="33" data-flag="fr" href="javascript:void(0)"><span class="fi fi-fr"></span> +33</a></li>
+                <li><a class="country-picker-option" data-value="34" data-flag="es" href="javascript:void(0)"><span class="fi fi-es"></span> +34</a></li>
+                <li><a class="country-picker-option" data-value="36" data-flag="hu" href="javascript:void(0)"><span class="fi fi-hu"></span> +36</a></li>
+                <li><a class="country-picker-option" data-value="39" data-flag="it" href="javascript:void(0)"><span class="fi fi-it"></span> +39</a></li>
+                <li><a class="country-picker-option" data-value="40" data-flag="ro" href="javascript:void(0)"><span class="fi fi-ro"></span> +40</a></li>
+                <li><a class="country-picker-option" data-value="41" data-flag="ch" href="javascript:void(0)"><span class="fi fi-ch"></span> +41</a></li>
+                <li><a class="country-picker-option" data-value="43" data-flag="at" href="javascript:void(0)"><span class="fi fi-at"></span> +43</a></li>
+                <li><a class="country-picker-option" data-value="44" data-flag="gb" href="javascript:void(0)"><span class="fi fi-gb"></span> +44</a></li>
+                <li><a class="country-picker-option" data-value="45" data-flag="dk" href="javascript:void(0)"><span class="fi fi-dk"></span> +45</a></li>
+                <li><a class="country-picker-option" data-value="46" data-flag="se" href="javascript:void(0)"><span class="fi fi-se"></span> +46</a></li>
+                <li><a class="country-picker-option" data-value="47" data-flag="no" href="javascript:void(0)"><span class="fi fi-no"></span> +47</a></li>
+                <li><a class="country-picker-option" data-value="48" data-flag="pl" href="javascript:void(0)"><span class="fi fi-pl"></span> +48</a></li>
+                <li><a class="country-picker-option" data-value="49" data-flag="de" href="javascript:void(0)"><span class="fi fi-de"></span> +49</a></li>
+                <li><a class="country-picker-option" data-value="51" data-flag="pe" href="javascript:void(0)"><span class="fi fi-pe"></span> +51</a></li>
+                <li><a class="country-picker-option" data-value="52" data-flag="mx" href="javascript:void(0)"><span class="fi fi-mx"></span> +52</a></li>
+                <li><a class="country-picker-option" data-value="53" data-flag="cu" href="javascript:void(0)"><span class="fi fi-cu"></span> +53</a></li>
+                <li><a class="country-picker-option" data-value="54" data-flag="ar" href="javascript:void(0)"><span class="fi fi-ar"></span> +54</a></li>
+                <li><a class="country-picker-option" data-value="55" data-flag="br" href="javascript:void(0)"><span class="fi fi-br"></span> +55</a></li>
+                <li><a class="country-picker-option" data-value="56" data-flag="cl" href="javascript:void(0)"><span class="fi fi-cl"></span> +56</a></li>
+                <li><a class="country-picker-option" data-value="57" data-flag="co" href="javascript:void(0)"><span class="fi fi-co"></span> +57</a></li>
+                <li><a class="country-picker-option" data-value="58" data-flag="ve" href="javascript:void(0)"><span class="fi fi-ve"></span> +58</a></li>
+                <li><a class="country-picker-option" data-value="60" data-flag="my" href="javascript:void(0)"><span class="fi fi-my"></span> +60</a></li>
+                <li><a class="country-picker-option" data-value="61" data-flag="au" href="javascript:void(0)"><span class="fi fi-au"></span> +61</a></li>
+                <li><a class="country-picker-option" data-value="62" data-flag="id" href="javascript:void(0)"><span class="fi fi-id"></span> +62</a></li>
+                <li><a class="country-picker-option" data-value="63" data-flag="ph" href="javascript:void(0)"><span class="fi fi-ph"></span> +63</a></li>
+                <li><a class="country-picker-option" data-value="64" data-flag="nz" href="javascript:void(0)"><span class="fi fi-nz"></span> +64</a></li>
+                <li><a class="country-picker-option" data-value="65" data-flag="sg" href="javascript:void(0)"><span class="fi fi-sg"></span> +65</a></li>
+                <li><a class="country-picker-option" data-value="66" data-flag="th" href="javascript:void(0)"><span class="fi fi-th"></span> +66</a></li>
+                <li><a class="country-picker-option" data-value="81" data-flag="jp" href="javascript:void(0)"><span class="fi fi-jp"></span> +81</a></li>
+                <li><a class="country-picker-option" data-value="82" data-flag="kr" href="javascript:void(0)"><span class="fi fi-kr"></span> +82</a></li>
+                <li><a class="country-picker-option" data-value="84" data-flag="vn" href="javascript:void(0)"><span class="fi fi-vn"></span> +84</a></li>
+                <li><a class="country-picker-option" data-value="86" data-flag="cn" href="javascript:void(0)"><span class="fi fi-cn"></span> +86</a></li>
+                <li><a class="country-picker-option" data-value="90" data-flag="tr" href="javascript:void(0)"><span class="fi fi-tr"></span> +90</a></li>
+                <li><a class="country-picker-option" data-value="91" data-flag="in" href="javascript:void(0)"><span class="fi fi-in"></span> +91</a></li>
+                <li><a class="country-picker-option" data-value="92" data-flag="pk" href="javascript:void(0)"><span class="fi fi-pk"></span> +92</a></li>
+                <li><a class="country-picker-option" data-value="93" data-flag="af" href="javascript:void(0)"><span class="fi fi-af"></span> +93</a></li>
+                <li><a class="country-picker-option" data-value="94" data-flag="lk" href="javascript:void(0)"><span class="fi fi-lk"></span> +94</a></li>
+                <li><a class="country-picker-option" data-value="95" data-flag="mm" href="javascript:void(0)"><span class="fi fi-mm"></span> +95</a></li>
+                <li><a class="country-picker-option" data-value="98" data-flag="ir" href="javascript:void(0)"><span class="fi fi-ir"></span> +98</a></li>
+                <li><a class="country-picker-option" data-value="212" data-flag="ma" href="javascript:void(0)"><span class="fi fi-ma"></span> +212</a></li>
+                <li><a class="country-picker-option" data-value="213" data-flag="dz" href="javascript:void(0)"><span class="fi fi-dz"></span> +213</a></li>
+                <li><a class="country-picker-option" data-value="216" data-flag="tn" href="javascript:void(0)"><span class="fi fi-tn"></span> +216</a></li>
+                <li><a class="country-picker-option" data-value="218" data-flag="ly" href="javascript:void(0)"><span class="fi fi-ly"></span> +218</a></li>
+                <li><a class="country-picker-option" data-value="221" data-flag="sn" href="javascript:void(0)"><span class="fi fi-sn"></span> +221</a></li>
+                <li><a class="country-picker-option" data-value="225" data-flag="ci" href="javascript:void(0)"><span class="fi fi-ci"></span> +225</a></li>
+                <li><a class="country-picker-option" data-value="233" data-flag="gh" href="javascript:void(0)"><span class="fi fi-gh"></span> +233</a></li>
+                <li><a class="country-picker-option" data-value="234" data-flag="ng" href="javascript:void(0)"><span class="fi fi-ng"></span> +234</a></li>
+                <li><a class="country-picker-option" data-value="237" data-flag="cm" href="javascript:void(0)"><span class="fi fi-cm"></span> +237</a></li>
+                <li><a class="country-picker-option" data-value="241" data-flag="ga" href="javascript:void(0)"><span class="fi fi-ga"></span> +241</a></li>
+                <li><a class="country-picker-option" data-value="242" data-flag="cg" href="javascript:void(0)"><span class="fi fi-cg"></span> +242</a></li>
+                <li><a class="country-picker-option" data-value="243" data-flag="cd" href="javascript:void(0)"><span class="fi fi-cd"></span> +243</a></li>
+                <li><a class="country-picker-option" data-value="244" data-flag="ao" href="javascript:void(0)"><span class="fi fi-ao"></span> +244</a></li>
+                <li><a class="country-picker-option" data-value="249" data-flag="sd" href="javascript:void(0)"><span class="fi fi-sd"></span> +249</a></li>
+                <li><a class="country-picker-option" data-value="251" data-flag="et" href="javascript:void(0)"><span class="fi fi-et"></span> +251</a></li>
+                <li><a class="country-picker-option" data-value="254" data-flag="ke" href="javascript:void(0)"><span class="fi fi-ke"></span> +254</a></li>
+                <li><a class="country-picker-option" data-value="255" data-flag="tz" href="javascript:void(0)"><span class="fi fi-tz"></span> +255</a></li>
+                <li><a class="country-picker-option" data-value="256" data-flag="ug" href="javascript:void(0)"><span class="fi fi-ug"></span> +256</a></li>
+                <li><a class="country-picker-option" data-value="258" data-flag="mz" href="javascript:void(0)"><span class="fi fi-mz"></span> +258</a></li>
+                <li><a class="country-picker-option" data-value="260" data-flag="zm" href="javascript:void(0)"><span class="fi fi-zm"></span> +260</a></li>
+                <li><a class="country-picker-option" data-value="267" data-flag="bw" href="javascript:void(0)"><span class="fi fi-bw"></span> +267</a></li>
+                <li><a class="country-picker-option" data-value="351" data-flag="pt" href="javascript:void(0)"><span class="fi fi-pt"></span> +351</a></li>
+                <li><a class="country-picker-option" data-value="353" data-flag="ie" href="javascript:void(0)"><span class="fi fi-ie"></span> +353</a></li>
+                <li><a class="country-picker-option" data-value="358" data-flag="fi" href="javascript:void(0)"><span class="fi fi-fi"></span> +358</a></li>
+                <li><a class="country-picker-option" data-value="359" data-flag="bg" href="javascript:void(0)"><span class="fi fi-bg"></span> +359</a></li>
+                <li><a class="country-picker-option" data-value="370" data-flag="lt" href="javascript:void(0)"><span class="fi fi-lt"></span> +370</a></li>
+                <li><a class="country-picker-option" data-value="371" data-flag="lv" href="javascript:void(0)"><span class="fi fi-lv"></span> +371</a></li>
+                <li><a class="country-picker-option" data-value="372" data-flag="ee" href="javascript:void(0)"><span class="fi fi-ee"></span> +372</a></li>
+                <li><a class="country-picker-option" data-value="375" data-flag="by" href="javascript:void(0)"><span class="fi fi-by"></span> +375</a></li>
+                <li><a class="country-picker-option" data-value="380" data-flag="ua" href="javascript:void(0)"><span class="fi fi-ua"></span> +380</a></li>
+                <li><a class="country-picker-option" data-value="381" data-flag="rs" href="javascript:void(0)"><span class="fi fi-rs"></span> +381</a></li>
+                <li><a class="country-picker-option" data-value="385" data-flag="hr" href="javascript:void(0)"><span class="fi fi-hr"></span> +385</a></li>
+                <li><a class="country-picker-option" data-value="386" data-flag="si" href="javascript:void(0)"><span class="fi fi-si"></span> +386</a></li>
+                <li><a class="country-picker-option" data-value="387" data-flag="ba" href="javascript:void(0)"><span class="fi fi-ba"></span> +387</a></li>
+                <li><a class="country-picker-option" data-value="420" data-flag="cz" href="javascript:void(0)"><span class="fi fi-cz"></span> +420</a></li>
+                <li><a class="country-picker-option" data-value="421" data-flag="sk" href="javascript:void(0)"><span class="fi fi-sk"></span> +421</a></li>
+                <li><a class="country-picker-option" data-value="502" data-flag="gt" href="javascript:void(0)"><span class="fi fi-gt"></span> +502</a></li>
+                <li><a class="country-picker-option" data-value="503" data-flag="sv" href="javascript:void(0)"><span class="fi fi-sv"></span> +503</a></li>
+                <li><a class="country-picker-option" data-value="504" data-flag="hn" href="javascript:void(0)"><span class="fi fi-hn"></span> +504</a></li>
+                <li><a class="country-picker-option" data-value="506" data-flag="cr" href="javascript:void(0)"><span class="fi fi-cr"></span> +506</a></li>
+                <li><a class="country-picker-option" data-value="507" data-flag="pa" href="javascript:void(0)"><span class="fi fi-pa"></span> +507</a></li>
+                <li><a class="country-picker-option" data-value="591" data-flag="bo" href="javascript:void(0)"><span class="fi fi-bo"></span> +591</a></li>
+                <li><a class="country-picker-option" data-value="593" data-flag="ec" href="javascript:void(0)"><span class="fi fi-ec"></span> +593</a></li>
+                <li><a class="country-picker-option" data-value="595" data-flag="py" href="javascript:void(0)"><span class="fi fi-py"></span> +595</a></li>
+                <li><a class="country-picker-option" data-value="598" data-flag="uy" href="javascript:void(0)"><span class="fi fi-uy"></span> +598</a></li>
+                <li><a class="country-picker-option" data-value="675" data-flag="pg" href="javascript:void(0)"><span class="fi fi-pg"></span> +675</a></li>
+                <li><a class="country-picker-option" data-value="850" data-flag="kp" href="javascript:void(0)"><span class="fi fi-kp"></span> +850</a></li>
+                <li><a class="country-picker-option" data-value="852" data-flag="hk" href="javascript:void(0)"><span class="fi fi-hk"></span> +852</a></li>
+                <li><a class="country-picker-option" data-value="855" data-flag="kh" href="javascript:void(0)"><span class="fi fi-kh"></span> +855</a></li>
+                <li><a class="country-picker-option" data-value="880" data-flag="bd" href="javascript:void(0)"><span class="fi fi-bd"></span> +880</a></li>
+                <li><a class="country-picker-option" data-value="886" data-flag="tw" href="javascript:void(0)"><span class="fi fi-tw"></span> +886</a></li>
+                <li><a class="country-picker-option" data-value="961" data-flag="lb" href="javascript:void(0)"><span class="fi fi-lb"></span> +961</a></li>
+                <li><a class="country-picker-option" data-value="962" data-flag="jo" href="javascript:void(0)"><span class="fi fi-jo"></span> +962</a></li>
+                <li><a class="country-picker-option" data-value="963" data-flag="sy" href="javascript:void(0)"><span class="fi fi-sy"></span> +963</a></li>
+                <li><a class="country-picker-option" data-value="964" data-flag="iq" href="javascript:void(0)"><span class="fi fi-iq"></span> +964</a></li>
+                <li><a class="country-picker-option" data-value="965" data-flag="kw" href="javascript:void(0)"><span class="fi fi-kw"></span> +965</a></li>
+                <li><a class="country-picker-option" data-value="966" data-flag="sa" href="javascript:void(0)"><span class="fi fi-sa"></span> +966</a></li>
+                <li><a class="country-picker-option" data-value="967" data-flag="ye" href="javascript:void(0)"><span class="fi fi-ye"></span> +967</a></li>
+                <li><a class="country-picker-option" data-value="968" data-flag="om" href="javascript:void(0)"><span class="fi fi-om"></span> +968</a></li>
+                <li><a class="country-picker-option" data-value="971" data-flag="ae" href="javascript:void(0)"><span class="fi fi-ae"></span> +971</a></li>
+                <li><a class="country-picker-option" data-value="972" data-flag="il" href="javascript:void(0)"><span class="fi fi-il"></span> +972</a></li>
+                <li><a class="country-picker-option" data-value="977" data-flag="np" href="javascript:void(0)"><span class="fi fi-np"></span> +977</a></li>
+                <li><a class="country-picker-option" data-value="993" data-flag="tm" href="javascript:void(0)"><span class="fi fi-tm"></span> +993</a></li>
+                <li><a class="country-picker-option" data-value="994" data-flag="az" href="javascript:void(0)"><span class="fi fi-az"></span> +994</a></li>
+                <li><a class="country-picker-option" data-value="995" data-flag="ge" href="javascript:void(0)"><span class="fi fi-ge"></span> +995</a></li>
+                <li><a class="country-picker-option" data-value="998" data-flag="uz" href="javascript:void(0)"><span class="fi fi-uz"></span> +998</a></li>
+            </ul>
+        </div>
+        <input type="tel" name="ZOP" class="form-control" required />
+    </div>
+</script>
 <script>
 (function(){
 
+const templateZap = $("#zapzap-template").html()
+$("#zapzap-template").remove()
+
+$(".zapzap-placeholder").each(function() {
+    $(this).append($(templateZap))
+})
 /*
 $(window).resize(recalcula);
 $(window).on("load", recalcula);
@@ -552,7 +575,7 @@ function getTable(data) {
         _vars = {
             "NOME": "Nome Completo",
             "DOC": "CPF",
-            "EMAIL": "Email",
+            "ZOP": "WhatsApp",
             "LOG": "Endereço",
             "NUM": "Nº"
         };
@@ -562,7 +585,7 @@ function getTable(data) {
         _vars = {
             "NOME": "Nome Tucano Master",
             "DOC": "CPF",
-            "EMAIL": "Email",
+            "ZOP": "WhatsApp",
             "LOG": "Endereço",
             "NUM": "Nº",
             "NOME_1": "Colega 1",
@@ -682,5 +705,25 @@ $(".close-area").click(function() {
     area.find(".PONTOS").text('')
     area.slideUp();
 });
+
+$(".country-picker-option").click(switchCountry)
+function switchCountry(e) {
+    const target = e.currentTarget
+    const parent = $(target).parents(".country-picker")
+    const value = target.dataset.value
+    const flag = target.dataset.flag
+
+    parent.find(".country-picker-value").val(value)
+    parent.find(".country-picker-display").html(flagTemplate(value, flag))
+}
+
+function flagTemplate(value, flag) {
+    return `
+        <span class="fi fi-${flag}"></span>
+        +${value}
+        <span class="caret"></span>
+    `
+}
+
 })();
 </script>
