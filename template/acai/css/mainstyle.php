@@ -41,6 +41,10 @@ body {
     height: 100%;
 }
 
+.cardapio-2022 {
+    padding-bottom: 152px;
+}
+
 .sectpedidos {
     background: url('/img/pedidos.jpg') no-repeat right bottom;
     background-size: cover;
