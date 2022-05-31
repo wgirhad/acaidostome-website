@@ -1,9 +1,10 @@
 <?php
 
 function page_output($page, $template) {
-    $base_path = "/template/$template";
-    $temp_file = dirname(dirname(__FILE__)) . $base_path . '/template.tpl';
-    $page_file = dirname(dirname(__FILE__)) . "/pages/$page.tpl";
+    $base_path = guess_base_path($page);
+    $template_path = "{$base_path}/template/{$template}";
+    $temp_file = $_SERVER['DOCUMENT_ROOT'] . "{$template_path}/template.tpl";
+    $page_file = $_SERVER['DOCUMENT_ROOT'] . "{$base_path}/pages/{$page}.tpl";
     $overflow = defined('NO_OVERFLOW') ? ' class="no-overflow"' : '';
     $hideStart = '';
     $hideEnd = '';
@@ -19,6 +20,7 @@ function page_output($page, $template) {
     $pageData = file_get_contents($page_file);
 
     $page = str_replace('{{page_content}}', $pageData, $tempData);
+    $page = str_replace('{{template_path}}', $template_path, $page);
     $page = str_replace('{{base_path}}', $base_path, $page);
     $page = str_replace('{{hide_menu_start}}', $hideStart, $page);
     $page = str_replace('{{hide_menu_end}}', $hideEnd, $page);
@@ -26,6 +28,15 @@ function page_output($page, $template) {
 
 
     echo $page;
+}
+
+function guess_base_path($page) {
+    $range = ($page === 'main') ? 1 : 2;
+    $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+    foreach (range(1, $range) as $x) {
+        $path = substr($path, 0, strrpos($path, '/'));
+    }
+    return $path;
 }
 
 function check_cache($temp_file, $page_file) {

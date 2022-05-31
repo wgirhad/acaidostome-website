@@ -1,11 +1,11 @@
 <div class="whtmrgplc"></div>
-<img src="/img/capa_tucano2.jpg" alt="" class="img-responsive">
+<img src="{{base_path}}/img/capa_tucano2.jpg" alt="" class="img-responsive">
 <br><br>
 
 <div class="maffix" data-fw-parent="cdx" data-fw-visible-on="premios" data-spy="affix" data-offset-top="300" style="display:none">
     <h2>VIP CARD</h2>
     <div class="card-box clearfix">
-        <img src="/img/cartao_gold.jpg" alt="" class="img-responsive goldcard">
+        <img src="{{base_path}}/img/cartao_gold.jpg" alt="" class="img-responsive goldcard">
         <div class="card-label">
             <span>GOLD</span>
             <div class="card-label-box">
@@ -15,7 +15,7 @@
         </div>
     </div>
     <div class="card-box clearfix">
-        <img src="/img/cartao_platinum.jpg" alt="" class="img-responsive platcard">
+        <img src="{{base_path}}/img/cartao_platinum.jpg" alt="" class="img-responsive platcard">
         <div class="card-label">
             <span>PLATINUM</span>
             <div class="card-label-box">
@@ -25,7 +25,7 @@
         </div>
     </div>
     <div class="card-box clearfix">
-        <img src="/img/cartao_diamond.jpg" alt="" class="img-responsive diamcard">
+        <img src="{{base_path}}/img/cartao_diamond.jpg" alt="" class="img-responsive diamcard">
         <div class="card-label">
             <span>DIAMOND</span>
             <div class="card-label-box">
@@ -43,7 +43,7 @@
                     <div class="col-sm-6" data-fw-hidden-on="1">
                         <div class="row">
                             <div class="col-xs-8 col-xs-offset-4">
-                                <img src="/img/logo_tucano.png" alt="" class="img-responsive">
+                                <img src="{{base_path}}/img/logo_tucano.png" alt="" class="img-responsive">
                             </div>
                         </div>
                     </div>
@@ -404,14 +404,14 @@
                         Prêmios
                     </h1>
 
-                    <img src="/img/fondue_220.jpg" alt="fondue_220" class="img-responsive" /><br />
-                    <img src="/img/tapioca_220.jpg" alt="tapioca_220" class="img-responsive" /><br />
-                    <img src="/img/acai_250.jpg" alt="acai_250" class="img-responsive" /><br />
-                    <img src="/img/cupuacu_300.jpg" alt="cupuacu_300" class="img-responsive" /><br />
-                    <img src="/img/pitaia_325.jpg" alt="pitaia_325" class="img-responsive" /><br />
-                    <img src="/img/lanche_300.jpg" alt="lanche_300" class="img-responsive" /><br />
-                    <img src="/img/tri_legal_450.jpg" alt="trilegal_450" class="img-responsive" /><br />
-                    <img src="/img/gran_575.jpg" alt="gran_575" class="img-responsive" /><br />
+                    <img src="{{base_path}}/img/fondue_220.jpg" alt="fondue_220" class="img-responsive" /><br />
+                    <img src="{{base_path}}/img/tapioca_220.jpg" alt="tapioca_220" class="img-responsive" /><br />
+                    <img src="{{base_path}}/img/acai_250.jpg" alt="acai_250" class="img-responsive" /><br />
+                    <img src="{{base_path}}/img/cupuacu_300.jpg" alt="cupuacu_300" class="img-responsive" /><br />
+                    <img src="{{base_path}}/img/pitaia_325.jpg" alt="pitaia_325" class="img-responsive" /><br />
+                    <img src="{{base_path}}/img/lanche_300.jpg" alt="lanche_300" class="img-responsive" /><br />
+                    <img src="{{base_path}}/img/tri_legal_450.jpg" alt="trilegal_450" class="img-responsive" /><br />
+                    <img src="{{base_path}}/img/gran_575.jpg" alt="gran_575" class="img-responsive" /><br />
                 </div>
             </div>
         </div>
@@ -659,7 +659,7 @@ function recalcula() {
 
 function cadastraCliente(form) {
     return new Promise(function(callback) {
-        var _url = "/backend/cadastrar-cliente/index.php";
+        var _url = "{{base_path}}/backend/cadastrar-cliente/index.php";
         var data = $(form).serialize();
         $.post(_url, data, callback, "json");
     });
@@ -667,7 +667,7 @@ function cadastraCliente(form) {
 
 function consultaPontos(form) {
     return new Promise(function(callback) {
-        var _url = "/backend/pontos-cliente/index.php";
+        var _url = "{{base_path}}/backend/pontos-cliente/index.php";
         var data = $(form).serialize();
         $.post(_url, data, callback, "json");
     });

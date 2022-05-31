@@ -1,9 +1,9 @@
 <section class="sect-site sect-slide ht100desk">
     <div class="swiper-container hz">
         <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background-image:url('/img/loop1.jpg')"></div>
-            <div class="swiper-slide" style="background-image:url('/img/loop2.jpg')"></div>
-            <div class="swiper-slide" style="background-image:url('/img/loop3.jpg')"></div>
+            <div class="swiper-slide" style="background-image:url('{{base_path}}/img/loop1.jpg')"></div>
+            <div class="swiper-slide" style="background-image:url('{{base_path}}/img/loop2.jpg')"></div>
+            <div class="swiper-slide" style="background-image:url('{{base_path}}/img/loop3.jpg')"></div>
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
@@ -20,7 +20,7 @@
             <div class="col-md-6">
                 <div class="xs-row">
                     <div class="img-container yover">
-                        <img src="/img/acai.jpg" class="img-responsive" alt="acai">
+                        <img src="{{base_path}}/img/acai.jpg" class="img-responsive" alt="acai">
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@
             <div class="col-md-6">
                 <div class="xs-row">
                     <div class="img-container yover">
-                        <img src="/img/mosaicodel2.jpg" class="img-responsive" alt="delicias">
+                        <img src="{{base_path}}/img/mosaicodel2.jpg" class="img-responsive" alt="delicias">
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
             <div class="col-md-4">
                 <div class="xs-row">
                     <div class="img-container">
-                        <img src="/img/lenda.jpg" class="bottom img-responsive" alt="lenda">
+                        <img src="{{base_path}}/img/lenda.jpg" class="bottom img-responsive" alt="lenda">
                     </div>
                 </div>
             </div>
@@ -101,7 +101,7 @@
          data-position-x="left"
          data-natural-width="3200"
          data-natural-height="1528"
-         data-image-src="/img/rodape2.jpg"
+         data-image-src="{{base_path}}/img/rodape2.jpg"
     ></div>
     <footer>
         <div class="container">
@@ -110,7 +110,7 @@
                     Seja um TUCANOFIEL
                 </div>
                 <div style="padding-left: 16px">
-                    <a href="/cadastro/" type="button" class="btn btnor btn-lg">
+                    <a href="{{base_path}}/cadastro/" type="button" class="btn btnor btn-lg">
                         Inscreva-se aqui
                     </a>
                 </div>
@@ -119,7 +119,7 @@
     </footer>
 </section>
 <!-- Swiper JS -->
-<script src="/lib/swiper/js/swiper.min.js"></script>
+<script src="{{base_path}}/lib/swiper/js/swiper.min.js"></script>
 <script>
 var swiper = new Swiper('.swiper-container', {
     pagination: '.swiper-pagination',
@@ -134,13 +134,13 @@ var swiper = new Swiper('.swiper-container', {
 });
 
 $(document).ready(function() {
-    $("<a href=\"/img/popup2.jpg\"></a>").fancybox({
+    $("<a href=\"{{base_path}}/img/popup2.jpg\"></a>").fancybox({
         "onComplete": setHandlerPopUp
     }).click();
 
     function setHandlerPopUp() {
         $("#fancybox-img").click(function() {
-            window.location = '/cadastro/';
+            window.location = '{{base_path}}/cadastro/';
         })
     }
 });

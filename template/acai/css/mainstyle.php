@@ -27,14 +27,14 @@ body {
 }
 
 .sectloja {
-    background: url('/img/loja.jpg') no-repeat right bottom;
+    background: url('<?=$base_url?>/img/loja.jpg') no-repeat right bottom;
     background-size: cover;
     width: 100%;
     height: 100%;
 }
 
 .sectcardapio {
-    background: url('/img/cardapio.jpg') no-repeat right bottom;
+    background: url('<?=$base_url?>/img/cardapio.jpg') no-repeat right bottom;
     background-size: cover;
     cursor: pointer;
     width: 100%;
@@ -46,7 +46,7 @@ body {
 }
 
 .sectpedidos {
-    background: url('/img/pedidos.jpg') no-repeat right bottom;
+    background: url('<?=$base_url?>/img/pedidos.jpg') no-repeat right bottom;
     background-size: cover;
     cursor: pointer;
     width: 100%;
